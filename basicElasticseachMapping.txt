@@ -1,0 +1,31 @@
+PUT _template/airodump
+{
+  "template": "airodump",
+  "settings": {
+    "number_of_shards": 1
+  },
+  "mappings": {
+    "v1": {
+      "properties": {
+        "Authentication Power": {
+          "type": "integer"
+        },
+        "# beacons": {
+          "type": "integer"
+        },
+        "# IV": {
+          "type": "integer"
+        },
+        "ID-length": {
+          "type": "integer"
+        },
+        "channel": {
+          "type": "integer"
+        },
+        "speed": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

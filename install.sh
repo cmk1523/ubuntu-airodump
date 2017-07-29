@@ -7,6 +7,11 @@ sudo apt-get install nodejs
 sudo apt-get install npm
 sudo apt install aircrack-ng
 
+wget -N https://artifacts.elastic.co/downloads/logstash/logstash-5.5.1.tar.gz
+rm -rf logstash-5.5.1.tar.gz
+tar -xf logstash-5.5.1.tar.gz
+
+
 npm i -g csvtojson
 
 # node/npm fix
