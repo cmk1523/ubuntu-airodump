@@ -11,3 +11,6 @@ npm i -g csvtojson
 
 # node/npm fix
 sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+# Make .ivs files from .cap files
+ivstools --convert out.cap out.ivs
