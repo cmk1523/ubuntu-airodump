@@ -15,7 +15,3 @@ sudo airodump-ng wlx00c0ca830680 -w output --output-format csv,pcap;
 
 # Check processes that could cause trouble
 #sudo airmon-ng check wlx00c0ca830680
-
-#tail -n +2 fixed.csv
-#head -n -1 fixed.csv > fixed.csv
-#head -n -1 fixed.csv > fixed.csv
